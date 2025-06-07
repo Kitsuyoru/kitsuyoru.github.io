@@ -1,6 +1,13 @@
+@font-face {
+  font-family: "Quicksand";
+  src: url("/resources/fonts/quicksand/Quicksand-Regular.ttf");
+  font-weight: 400;
+}
+
 html, body {
     margin: 0vw;
     padding: 0vw;
+    font-family: Quicksand, sans-serif;
     font-size: 1.2vw;
     width: 100vw;
     height: 4vw;
