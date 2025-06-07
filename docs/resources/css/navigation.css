@@ -1,14 +1,15 @@
 html, body {
     margin: 0vw;
     padding: 0vw;
-    font-size: 1.4vw;
+    font-size: 1.2vw;
     width: 100vw;
-    height: 3vw;
+    height: 4vw;
     overflow: hidden;
 }
 
 nav {
     display: block;
+    margin: 1vw 0vw 0vw;
 }
 
 nav ul {
@@ -24,21 +25,19 @@ nav ul {
 nav li {
     width: 12vw;
     text-align: center;
-    margin-right: 3vw;
+    margin-right: 4vw;
 }
 
 .navigation-button {
     display: block;
     text-decoration: none;
     color: white;
-    background-color: #303030bb;
     border: solid #ffffff00 0.1vw;
     border-radius: 100vw;
 }
 
 .navigation-button:hover {
-    border: solid #ffffffff 0.1vw;
-    background-color: #00000070;
+    border: solid #ffffff80 0.1vw;
 }
 
 .navigation-image {
