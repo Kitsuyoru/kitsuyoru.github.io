@@ -1,0 +1,24 @@
+html, body {
+    margin: 0vw;
+    padding: 0vw;
+    font-family: Arial, sans-serif;
+    font-size: 1vw;
+    text-align: center;
+}
+
+body {
+    background: #f4f4f4;
+    color: #333333ff;
+}
+
+h1 {
+    color: #2c3e50;
+}
+
+.navigation-container {
+    display: block;
+    border: none;
+    width: 100vw;
+    height: 3vw;
+    margin: 1vw 0vw 0vw;
+}
