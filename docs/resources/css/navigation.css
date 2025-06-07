@@ -1,0 +1,46 @@
+html, body {
+    margin: 0vw;
+    padding: 0vw;
+    font-size: 1.4vw;
+    width: 100vw;
+    height: 100vw;
+}
+
+nav {
+    display: block;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    margin: 0vw;
+    padding: 0vw;
+    background-color: #ffffff00;
+}
+
+nav li {
+    width: 12vw;
+    text-align: center;
+    margin-right: 3vw;
+}
+
+.navigation-button {
+    display: block;
+    text-decoration: none;
+    color: white;
+    background-color: #303030bb;
+    border: solid #ffffff00 0.1vw;
+    border-radius: 100vw;
+}
+
+.navigation-button:hover {
+    border: solid #ffffffff 0.1vw;
+    background-color: #00000070;
+}
+
+.navigation-image {
+    width: 3vw;
+    height auto;
+}
