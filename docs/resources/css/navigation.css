@@ -3,7 +3,8 @@ html, body {
     padding: 0vw;
     font-size: 1.4vw;
     width: 100vw;
-    height: 100vw;
+    height: 3vw;
+    overflow: hidden;
 }
 
 nav {
