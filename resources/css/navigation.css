@@ -4,6 +4,10 @@
   font-weight: 400;
 }
 
+::selection {
+  background-color: #c68aff69;
+}
+
 html, body {
     margin: 0vw;
     padding: 0vw;
