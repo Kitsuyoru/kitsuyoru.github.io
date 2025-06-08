@@ -54,8 +54,9 @@ nav li {
     background-color: #00000020;
     border: solid #ffffff00 0.1vw;
     border-radius: 0.4vw;
+    transition: border 0.5s cubic-bezier(0.37, 0, 0.63, 1) 0s;
 }
 
 .navigation-button:hover {
-    border: solid #ffffff80 0.11vw;
+    border: solid #ffffff80 0.1vw;
 }
