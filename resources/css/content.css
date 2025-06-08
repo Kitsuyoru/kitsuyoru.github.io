@@ -40,6 +40,7 @@ html, body {
     flex-wrap: nowrap;
     text-align: right;
     justify-content: right;
+	text-decoration: none;
 }
 
 .content-header {
