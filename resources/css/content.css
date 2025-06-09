@@ -16,6 +16,10 @@ html, body {
     overflow: hidden;
 }
 
+a {
+    color: inherit;
+}
+
 .content {
     display: grid;
     grid-template-columns: 1fr auto;
