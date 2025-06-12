@@ -1,0 +1,82 @@
+@font-face {
+  font-family: "Quicksand";
+  src: url("/resources/fonts/quicksand/Quicksand-Regular.ttf");
+  font-weight: 400;
+}
+
+::selection {
+  background-color: #c68aff69;
+}
+
+html, body {
+    margin: 0vw;
+    padding: 0vw;
+    font-family: Quicksand, sans-serif;
+    font-size: 1vw;
+    overflow: hidden;
+}
+
+a {
+    color: inherit;
+}
+
+.content {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    margin: 0vw;
+    padding: 0.4vw 0.5vw;
+    top: 0vw;
+    bottom: 0vw;
+    left: 0vw;
+    right: 0vw;
+    font-family: Quicksand, sans-serif;
+    font-size: 1vw;
+    background-color: transparent;
+    color: white;
+}
+
+.content-text {
+    margin-right: 0.4vw;
+    height: 9.9vw;
+}
+
+.content-gallery {
+    flex-wrap: nowrap;
+    text-align: right;
+    justify-content: right;
+}
+
+.content-gallery a {
+    text-decoration: none;
+}
+
+.content-header {
+    display: flex;
+}
+
+.content-content {
+    text-align: justify;
+}
+
+.content-title {
+    font-size: 1.4vw;
+    margin-right: 1vw;
+    margin-bottom: 0.4vw;
+}
+
+.content-date {
+    font-size: 0.8vw;
+    margin-top: 0.6vw;
+}
+
+.content-gallery-image {
+    margin-left: 0.4vw;
+    width: auto;
+    height: 9.9vw;
+    border-radius: 0.4vw;
+    transition: transform 0.5s cubic-bezier(0.37, 0, 0.63, 1) 0s;
+}
+
+.content-gallery-image:hover {
+    transform: scale(1.04);
+}
